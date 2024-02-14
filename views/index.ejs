@@ -1,0 +1,15 @@
+<% include ./partials/header.ejs %>
+  <div class="w-full h-screen bg-zinc-300 flex items-center justify-center">
+    <div class="w-[25vw] h-[50vh] bg-white px-4 rounded-[30px] py-5">
+      <h1 class="text-3xl font-semibold text-zinc-700 racking-tighter text-center capitalize leading-none">Welcome to
+        pintrest</h1>
+      <form action="">
+        <input class="block border-2 rounded-md w-full px-3 py-2" type="text" name="usename" placeholder="username">
+        <input class="block border-2 rounded-md w-full px-3 py-2" type="password" name="password"
+          placeholder="password">
+        <input class="block border-2 rounded-full w-full px-3 py-2 bg-red-600 text-white" type="submit" value="login">
+        <a class="mt-2 font-semibold text-zinc-500 inline-block" href="#">Forget password</a>
+      </form>
+    </div>
+  </div>
+  <% include ./partials/footer.ejs %>
